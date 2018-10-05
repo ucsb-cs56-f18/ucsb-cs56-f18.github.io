@@ -70,9 +70,9 @@ Overview of this lab
 
 6.  We are now going to add TWO remotes to this repo.
     * The following command adds a remote that you can use to get the starter code
-        * `git remote add starter git@github.com:ucsb-cs56-m18/STARTER_lab01.git`
+        * `git remote add starter git@github.com:{{page.org}}/STARTER_lab01.git`
     * The following command adds a remote called `origin` that refers to the repo on github.com.  Instead of the URL below, use the URL for YOUR repo, i.e. substitute your github ids in place of `cgaucho01` and ldelplaya99`.
-        * `git remote add origin git@github.com:ucsb-cs56-m18/lab01-cgaucho01-ldelplaya99.git`
+        * `git remote add origin git@github.com:{{page.org}}/lab01-cgaucho01-ldelplaya99.git`
 
 7.  Now, pull the starter code into your repo with this command
 
@@ -80,7 +80,7 @@ Overview of this lab
     git pull starter master
     ```
 
-    This should pull in [the starter code for lab01](https://github.com/ucsb-cs56-m18/STARTER_lab01), which is very similar (though not identical) to the code in step 8 of the  [Rational Tutorial](https://ucsb-cs56-pconrad.github.io/tutorials/rational/).
+    This should pull in [the starter code for lab01](https://github.com/{{page.org}}/STARTER_lab01), which is very similar (though not identical) to the code in step 8 of the  [Rational Tutorial](https://ucsb-cs56-pconrad.github.io/tutorials/rational/).
    
 8.  Now, do a `git push origin master` to push this code back to your own
     private repo.
